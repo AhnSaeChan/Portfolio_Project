@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Arimo:400|Raleway:300,400,700&display=swap");
 body {
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #ffffff;
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
@@ -15,7 +15,7 @@ body:before {
   right: 0;
   bottom: 0;
   top: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   visibility: hidden;
   opacity: 0;
   -webkit-transition: .3s all ease;
@@ -108,15 +108,15 @@ a, a:hover {
 }
 
 .btn.btn-outline-pill.btn-custom-light {
-  color: #fff;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  border: 2px solid rgba(0, 100, 167, 0.5);
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
 }
 
 .btn.btn-outline-pill.btn-custom-light:hover, .btn.btn-outline-pill.btn-custom-light:active, .btn.btn-outline-pill.btn-custom-light:focus {
-  border-color: #fff;
+  border-color: #630000;
 }
 
 .btn.btn-bg-white--hover:hover {
@@ -1323,7 +1323,7 @@ figure.dotted-bg:before {
   font-size: 69px;
   font-weight: 900;
   font-family: "Arimo", sans-serif;
-  color: #D63447;
+  color: #0411cc;
 }
 
 .counter-v1 .number-wrap .append-text {
